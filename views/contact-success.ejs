@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <style>
+        body{background: skyblue; font-family: verdana;  color:white; padding: 30px;}
+        h1{font-size: 48px; text-transform: uppercase; letter-spacing: 2px; text-align: center;}
+        p{font-size: 16px; text-align: center;}
+    </style>
+    <body>
+        <% include partials/nav.ejs %>rs
+        <h1>Contact Us!</h1>
+        <p>Thanks for getting in touch with us!!</p>
+        <p>You contacted <%= data.who %> in the <%= data.department %> department.</p>
+        <p>We will reply you at <%= data.email %></p>
+</html>
